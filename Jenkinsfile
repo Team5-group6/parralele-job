@@ -7,7 +7,7 @@ pipeline{
 			}
 		}
 		stage('2-parralel-stage'){
-			parralele{
+			parralel{
 				stage('1-parralel-saada-job'){
 					steps{
 						sh'lscpu'
